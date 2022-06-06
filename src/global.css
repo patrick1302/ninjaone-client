@@ -1,10 +1,27 @@
+@import '~antd/dist/antd.css';
+@import 'react-notifications-component/dist/theme.css';
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+}
+
 body {
-  margin: 0;
+  height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:  #FBF9FC;
 }
 
 code {
